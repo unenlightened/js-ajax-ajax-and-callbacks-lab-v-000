@@ -8,5 +8,5 @@ function searchRepositories(){
     $("#results").html(response)
   })
 
-  console.log(term)
+  console.log(query)
 }
