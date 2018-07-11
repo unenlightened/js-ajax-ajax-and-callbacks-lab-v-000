@@ -7,4 +7,6 @@ function searchRepositories(){
   $.get(url, function(response) {
     $("#results").html(response)
   })
+
+  console.log(term)
 }
